@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/title"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/volume"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="76dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/volume"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:text="1"
+        tools:ignore="HardcodedText,RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/length"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="72dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/lenght"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:text="@string/_500"
+        tools:ignore="RelativeOverlap,TextFields" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="375dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="120dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="130dp"
+        android:text="@string/btn"
+        tools:ignore="RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/cut"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="72dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/width"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:text="@string/_5"
+        tools:ignore="RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/length_detail"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="77dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/len_det"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:text="@string/_15"
+        tools:ignore="Autofill,RelativeOverlap,TextFields" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="136dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="144dp"
+        android:gravity="right|center_vertical"
+        android:text="@string/name_volume"
+        android:textSize="18sp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="146dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="220dp"
+        android:gravity="center_vertical|right"
+        android:text="@string/lendth_det"
+        android:textSize="18sp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="145dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="284dp"
+        android:gravity="right"
+        android:text="@string/long_prut"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="111dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="357dp"
+        android:gravity="right"
+        android:text="@string/name_cut"
+        android:textSize="18sp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/copy"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="9dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/u00a9_2024"
+        android:textSize="12sp" />
+
+</RelativeLayout>

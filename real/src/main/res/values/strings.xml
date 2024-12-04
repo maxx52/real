@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">real</string>
+    <string name="title" translatable="false">Расчет материала для заготовок</string>
+    <string name="volume">Количество деталей</string>
+    <string name="lenght">Длина прутка</string>
+    <string name="btn">Рассчитать</string>
+    <string name="width">Ширина отреза</string>
+    <string name="len_det">Длина детали</string>
+    <string name="_500">500</string>
+    <string name="_5">5</string>
+    <string name="name_volume">Количество</string>
+    <string name="_15">15</string>
+    <string name="long_prut">Длина прутка</string>
+    <string name="name_cut">Ширина отреза</string>
+    <string name="lendth_det">Длина детали</string>
+    <string name="u00a9_2024">© 2024 Максим Красноперов</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Расчет материала для заготовок</string>
+    <string name="volume">Количество деталей</string>
+    <string name="btn">Рассчитать</string>
+    <string name="width">Ширина отреза</string>
+    <string name="_500">500</string>
+    <string name="_5">5</string>
+    <string name="name_volume">Количество</string>
+    <string name="name_cut">Ширина отреза</string>
+</resources>
